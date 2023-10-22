@@ -12,7 +12,7 @@ students_resource = StudentsResource()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Trip planner application says Hello from Google App Engine"}
 
 
 @app.get("/hello/{name}")
